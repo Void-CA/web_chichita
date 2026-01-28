@@ -8,6 +8,7 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
     background-size: auto, auto; 
+    font-family:  'Lexend', sans-serif;
 }
 
 
@@ -68,6 +69,7 @@ body {
 
 .card {
     background-color: #540058;
+    height: 250px;
     padding: 30px;
     border-radius: 15px;
 }
@@ -147,4 +149,16 @@ body {
 
 #header {
     background-image: url("./images/bg-pattern-top-desktop.svg");
+}
+
+#colton-card {
+    margin-top: 10px;
+}
+
+#irene-card {
+    margin-top: 30px;
+}   
+
+#anne-card {
+    margin-top: 50px;
 }
