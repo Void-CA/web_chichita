@@ -50,8 +50,32 @@ body {
 }
 
 
+
+
+.clients-section img {
+    border-radius: 50%;
+}
+
 .clients-section h3 {
     color: #540058;
     font-size: 1.5em;
     margin: 8px 0;
+}
+
+.clients-section h4 {
+    color: #888;
+    font-size: 1em;
+    margin: 4px 0 12px 0;
+}
+
+.clients-section p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #333;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
