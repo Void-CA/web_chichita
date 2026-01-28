@@ -1,3 +1,16 @@
+body {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-image:
+    url('./images/bg-pattern-top-desktop.svg'),
+    url('./images/bg-pattern-bottom-mobile.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+    background-size: auto, auto; 
+}
+
+
 .clients-section {
     display: flex;
     gap: 16px;
@@ -17,27 +30,8 @@
     gap: 16px;
 }
 
-body {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
-}
 
-@media (max-width: 768px) {
-    body {
-        margin: 20px;
-    }
-    
-    .upper-section {
-        flex-direction: column;
-    }
 
-    .clients-section {
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-}
 
 .intro-section {
     width: 600px;
@@ -49,8 +43,11 @@ body {
     margin-bottom: 16px;
 }
 
-
-
+.intro-section p {
+    color: #534456;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
 
 .clients-section img {
     border-radius: 50%;
@@ -71,6 +68,8 @@ body {
 
 .card {
     background-color: #540058;
+    padding: 30px;
+    border-radius: 15px;
 }
 
 .card h3 {
@@ -97,8 +96,12 @@ body {
     gap: 16px;
 }
 
+.rating-section {
+    margin-top: 50px;
+}
+
 .stars-card {
-    background-color: #e7d3ec;
+    background-color: #f1e6f9;
     width: 600px;
     height: 60px;
     padding: 10px;
@@ -124,6 +127,24 @@ body {
 }
 
 .stars img {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+#report-guru {
+    margin-left: 100px;
+    
+}
+
+#best-tech {
+    margin-left: 200px;
+    
+}
+
+#footer {
+    background-image: url("./images/bg-pattern-bottom-desktop.svg");
+}
+
+#header {
+    background-image: url("./images/bg-pattern-top-desktop.svg");
 }

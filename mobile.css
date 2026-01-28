@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    body {
+        margin: 20px;
+    }
+    
+    .upper-section {
+        flex-direction: column;
+    }
+
+    .clients-section {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}
