@@ -143,13 +143,6 @@ body {
     
 }
 
-#footer {
-    background-image: url("./images/bg-pattern-bottom-desktop.svg");
-}
-
-#header {
-    background-image: url("./images/bg-pattern-top-desktop.svg");
-}
 
 #colton-card {
     margin-top: 10px;
